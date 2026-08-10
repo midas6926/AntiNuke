@@ -1,0 +1,13 @@
+name: AntiNuke
+main: com.midas6926.antinuke.AntiNuke
+version: 1.0.0
+api-version: "1.21"
+author: midas6926
+description: AntiNuke - blocks dangerous commands and hides tab completions based on permissions.
+softdepend:
+  - LuckPerms
+
+permissions:
+  antinuke.bypass.tab:
+    description: "Bypass anti-tab completion checks"
+    default: false

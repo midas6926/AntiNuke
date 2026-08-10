@@ -1,0 +1,27 @@
+# AntiNuke configuration
+
+# Commands to block (without leading slash)
+blocked-commands:
+  - powertool
+  - ebt
+  - plugins
+  - pl
+  - ?
+
+# Whitelisted players (player names or UUIDs). These players are allowed to use the blocked commands and see tab completions.
+whitelist:
+  # - "YourName"
+  # - "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+
+# Message shown to blocked users (supports & color codes)
+blocked-message: "&cYou are not allowed to use that command."
+
+# Tab completion settings
+tab-allow-ops: false
+tab-bypass-perm: "antinuke.bypass.tab"
+
+# Optional mapping when plugin commands don't expose a permission node
+command-permission-overrides:
+  # Example:
+  # plugins: "bukkit.command.plugins"
+  # pl: "bukkit.command.pl"
